@@ -96,7 +96,6 @@ class TabunaCollectorTest extends TestCase
             ],
             [
                 'title' => 'Crumb without link',
-                'url' => null,
             ],
         ], $crumbs->toArray());
     }
