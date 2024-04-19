@@ -14,6 +14,15 @@ class GretelCollectorTest extends TestCase
 {
     use SetupCollector;
 
+    // TODO remove once upstream issue is resolved
+    protected function setUp(): void
+    {
+        $this->markTestSkipped(
+            'Skipping due to upstream dependency bug. '.\PHP_EOL
+            .'@see https://github.com/orchestral/testbench/issues/403'
+        );
+    }
+
     protected function collector(): string
     {
         return GretelBreadcrumbsCollector::class;
