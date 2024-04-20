@@ -2,6 +2,10 @@
 
 All notable changes to `inertia-breadcrumbs` will be documented in this file.
 
+## v0.5.0 - TBD
+
+- Added support for `null` breadcrumb URLs by @shengslogar in https://github.com/RobertBoes/inertia-breadcrumbs/pull/15
+
 ## v0.4.0 - 2023-10-20
 
 ### What's Changed
